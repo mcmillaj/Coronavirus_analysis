@@ -28,9 +28,9 @@ def getBingData(force_refresh = False, save_data = 'Both'):
 
 
 # test data aggregation
-df = getBingData()
+orig_df = getBingData()
 
-df['Country_Region'].unique()
+orig_df['Country_Region'].unique()
 
 
 
@@ -85,10 +85,30 @@ def testAggregation(df, country = None, state = None):
         print('Country percentage is: ' + str(round(country_agg / world_total * 100, 1)) + '%')
 
 # Some data is lost when summing by more granular locations. 
-testAggregation(df, country = 'United States')
-testAggregation(df, state = 'Colorado')
-testAggregation(df, country = 'China (mainland)')
-testAggregation(df, country = 'United Kingdom')
+testAggregation(orig_df, country = 'United States')
+testAggregation(orig_df, state = 'Colorado')
+testAggregation(orig_df, country = 'China (mainland)')
+testAggregation(orig_df, country = 'United Kingdom')
+
+
+all_countries = orig_df[(orig_df.Country_Region != 'Worldwide') & (orig_df.AdminRegion1.isnull())]
+all_states = orig_df[(orig_df.Country_Region == 'United States') & (orig_df.AdminRegion1.notnull()) & (orig_df.AdminRegion2.isnull())]
+country_rankings_cases = tallyRegions(all_countries, 'Confirmed', 'Country_Region')
+country_rankings_deaths = tallyRegions(all_countries, 'Deaths', 'Country_Region')
+state_rankings_cases = tallyRegions(all_states, 'Confirmed', 'AdminRegion1')
+state_rankings_deaths = tallyRegions(all_states, 'Deaths', 'AdminRegion1')
+
+
+def tallyRegions(df, metric, group_var):
+    if metric not in ['Confirmed','Deaths']:
+        print('Metric must be "Confirmed" or "Deaths"')
+    agg = df.sort_values([group_var,'Updated']).groupby(group_var).tail(1)[['Updated',group_var,metric]].sort_values(metric, ascending = False) 
+    total_sum = agg[metric].sum()
+    agg = agg.assign(
+        Rank = range(1, len(agg) + 1),
+        Percent = lambda agg: round(agg[metric] / total_sum, 5))
+    agg['Cumul_Percent'] = agg['Percent'].cumsum()
+    return agg
 
 
 
