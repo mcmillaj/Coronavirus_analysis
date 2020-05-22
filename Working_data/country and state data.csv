@@ -1,0 +1,97 @@
+Type,Region,Date_began,Date_ended,Days_in_effect,Population
+Country,Austria,2020-03-16,2020-04-13,28,9006398
+Country,Bangladesh,2020-03-26,2020-05-16,51,164689383
+Country,Belarus,,,0,9449323
+Country,Belgium,2020-03-18,2020-05-04,47,11589623
+Country,Brazil,2020-03-17,2020-05-10,54,212559417
+Country,Canada,,,0,37742154
+Country,Chile,,,0,19116201
+Country,China(mainland),2020-01-23,2020-03-19,56,1439323776
+Country,Colombia,2020-03-25,2020-05-31,67,50882891
+Country,Denmark,2020-03-13,2020-04-15,33,5792202
+Country,Dominican Republic,,,0,10847910
+Country,Ecuador,2020-03-16,2020-03-31,15,17643054
+Country,Egypt,,,0,102334404
+Country,France,2020-03-17,2020-05-11,55,65273511
+Country,Germany,2020-03-23,2020-05-10,48,83783942
+Country,India,2020-03-25,2020-05-31,67,1380004385
+Country,Indonesia,,,0,273523615
+Country,Iran,2020-03-14,2020-04-20,37,83992949
+Country,Ireland,2020-03-12,2020-05-18,67,4937786
+Country,Israel,,,0,8655535
+Country,Italy,2020-03-09 ,2020-05-03,55,60461826
+Country,Japan,,,0,126476461
+Country,Kuwait,2020-03-14,2020-03-29,15,4270571
+Country,Mexico,,,0,128932753
+Country,Netherlands,2020-03-15,2020-05-12,58,17134872
+Country,Pakistan,2020-03-24,2020-05-09,46,220892340
+Country,Peru,2020-03-16,2020-05-24,69,32971854
+Country,Philippines,2020-03-19,2020-05-15,57,109581078
+Country,Poland,2020-03-13,2020-04-11,29,37846611
+Country,Portugal,2020-03-19,2020-04-02,14,10196709
+Country,Qatar,2020-03-11,2020-06-01,82,2881053
+Country,Romania,2020-03-25,2020-05-12,48,19237691
+Country,Russia,2020-03-28,2020-04-30,33,145934462
+Country,Saudi Arabia,2020-03-26,2020-06-01,67,34813871
+Country,Singapore,2020-04-07,2020-06-01,55,5850342
+Country,South Africa,2020-03-26,2020-04-30,35,59308690
+Country,South Korea,,,0,51269185
+Country,Spain,2020-03-14,2020-05-09,56,46754778
+Country,Sweden,,,0,10099265
+Country,Switzerland,,,0,8654622
+Country,Turkey,2020-04-23,2020-04-27,4,84339067
+Country,Ukraine,2020-03-17,2020-04-24,38,43733762
+Country,United Arab Emirates,2020-03-26,2020-04-17,22,9890402
+Country,United Kingdom,2020-03-23,2020-06-01,70,67886011
+Country,United States,2020-03-24,2020-05-18,55,331002651
+State,Alabama,04/04/20,04/30/20,26,4903185
+State,Alaska,03/28/20,06/01/20,65,731545
+State,Arizona,03/31/20,06/01/20,62,7278717
+State,Arkansas,,,0,3017825
+State,California,03/19/20,06/01/20,74,39512223
+State,Colorado,03/26/20,04/26/20,31,5758736
+State,Connecticut,03/23/20,06/01/20,70,3565287
+State,Delaware,03/24/20,06/01/20,69,973764
+State,Florida,04/03/20,05/04/20,31,21477737
+State,Georgia,04/03/20,04/30/20,27,10617423
+State,Hawaii,03/25/20,06/01/20,68,1415872
+State,Idaho,03/25/20,04/30/20,36,1787065
+State,Illinois,03/21/20,06/01/20,72,12671821
+State,Indiana,03/25/20,05/01/20,37,6732219
+State,Iowa,,,0,3155070
+State,Kansas,03/30/20,05/04/20,35,2913314
+State,Kentucky,,,0,4467673
+State,Louisiana,03/23/20,06/01/20,70,4648794
+State,Maine,04/02/20,04/30/20,28,1344212
+State,Maryland,03/30/20,05/15/20,46,6045680
+State,Massachusetts,,,0,6949503
+State,Michigan,03/24/20,06/01/20,69,9986857
+State,Minnesota,03/27/20,06/01/20,66,5639632
+State,Mississippi,04/03/20,04/27/20,24,2976149
+State,Missouri,04/06/20,05/03/20,27,6137428
+State,Montana,03/28/20,04/26/20,29,1068778
+State,Nebraska,,,0,1934408
+State,Nevada,04/01/20,06/01/20,61,3080156
+State,New Hampshire,03/27/20,06/01/20,66,1359711
+State,New Jersey,03/21/20,06/01/20,72,8882190
+State,New Mexico,03/24/20,06/01/20,69,2096829
+State,New York,03/22/20,06/01/20,71,19453561
+State,North Carolina,03/30/20,06/01/20,63,10488084
+State,North Dakota,,,0,762062
+State,Ohio,03/23/20,06/01/20,70,11689100
+State,Oklahoma,,,0,3956971
+State,Oregon,03/23/20,06/01/20,70,4217737
+State,Pennsylvania,04/01/20,06/01/20,61,12801989
+State,Puerto Rico,03/15/20,06/01/20,78,3193694
+State,Rhode Island,03/28/20,06/01/20,65,1059361
+State,South Carolina,04/07/20,05/04/20,27,5148714
+State,South Dakota,,,0,884659
+State,Tennessee,04/02/20,04/30/20,28,6833174
+State,Texas,04/02/20,04/30/20,28,28995881
+State,Utah,,,0,3205958
+State,Vermont,03/25/20,06/01/20,68,623989
+State,Virginia,03/30/20,06/01/20,63,8535519
+State,Washington,03/23/20,06/01/20,70,7614893
+State,West Virginia,03/23/20,05/04/20,42,1792147
+State,Wisconsin,03/25/20,05/13/20,49,5822434
+State,Wyoming,,,0,578759
